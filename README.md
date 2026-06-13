@@ -13,4 +13,3 @@ Based on Monokai + Pitch Black.
 
 ![Screenshot 3](images/3.png)
 
-**Enjoy!**
