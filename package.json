@@ -1,33 +1,45 @@
 {
-  "name": "hohen-end-dark-theme",
-  "displayName": "Hohen-End",
-  "description": "High contrast theme with black background, very nice for oled screens. Based on monokai + Pitch black.",
-  "publisher": "lucassiqueira",
-  "version": "1.1.2",
-  "icon": "images/icon.jpeg",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LucasSiqueiraSurreco/hohen-end-dark-theme"
-  },
-  "keywords": [
-    "theme",
-    "dark theme",
-    "oled theme",
-    "high contrast"
-  ],
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Hohen-End",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Hohen-End-color-theme.json"
-      }
-    ]
-  }
+	"name": "hohen-end-dark-theme",
+	"displayName": "Hohen-End",
+	"description": "High contrast theme with black background, very nice for oled screens. Based on monokai + Pitch black from Hosein Khansari",
+	"publisher": "Akarsh Reddy E",
+	"version": "1.1.1",
+	"icon": "images/icon.jpeg",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/akarsh16reddy/hohen-end-dark-theme"
+	},
+	"keywords": [
+		"theme",
+		"dark theme",
+		"oled theme",
+		"high contrast"
+	],
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hohen-End",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hohen-End-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9fbd0071-373e-412f-add9-facf3cacddd5",
+		"publisherId": "d08d1739-16dd-48e7-bd54-b3c3308767a8",
+		"publisherDisplayName": "Akarsh Reddy E",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707759333564,
+		"pinned": false,
+		"size": 460365
+	}
 }

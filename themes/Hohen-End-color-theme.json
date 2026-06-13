@@ -72,7 +72,7 @@
 		 "scope":"comment.git-status.header.local",
 		 "settings":{
 			"name":"git status local",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -149,7 +149,7 @@
 		 "scope":"constant.other.elm",
 		 "settings":{
 			"name":"Constants in elm",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -219,7 +219,7 @@
 		 ],
 		 "settings":{
 			"name":"Class template",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -233,7 +233,7 @@
 		 "scope":"entity.name.function.preprocessor",
 		 "settings":{
 			"name":"Macros",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -247,7 +247,7 @@
 		 "scope":"entity.name.class",
 		 "settings":{
 			"name":"Class name",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -269,7 +269,7 @@
 		 "settings":{
 			"name":"Inherited class",
 			"fontStyle":"italic",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -306,7 +306,7 @@
 		 ],
 		 "settings":{
 			"name":"Entity name type",
-			"foreground":"#a56bf5"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -314,7 +314,7 @@
 		 "settings":{
 			"name":"Tag attribute",
 			"fontStyle":"italic",
-			"foreground":"#7650ff"
+			"foreground":"#fd971f"
 		 }
 	  },
 	  {
@@ -346,7 +346,7 @@
 		 "settings":{
 			"name":"CSS pseudo class",
 			"fontStyle":"italic",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -398,7 +398,7 @@
 		 "scope":"entity.name.type.rust",
 		 "settings":{
 			"name":"rust specific",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -490,7 +490,7 @@
 		 ],
 		 "settings":{
 			"name":"rust specific",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -907,8 +907,8 @@
 		 "scope":"region.bluish",
 		 "settings":{
 			"name":"region blue color",
-			"foreground":"#7650ff",
-			"background":"#7650ff59"
+			"foreground":"#20C20E",
+			"background":"#20C20E59"
 		 }
 	  },
 	  {
@@ -1029,7 +1029,7 @@
 		 "settings":{
 			"name":"Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
 			"fontStyle":"italic",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1088,7 +1088,7 @@
 		 ],
 		 "settings":{
 			"name":"rust specific",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1151,7 +1151,7 @@
 		 "scope":"string.other.link.description.title",
 		 "settings":{
 			"name":"link description",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1192,7 +1192,7 @@
 		 "scope":"support.constant",
 		 "settings":{
 			"name":"Library constant",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1231,14 +1231,14 @@
 		 "settings":{
 			"name":"Library type",
 			"fontStyle":"italic",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
 		 "scope":"support.variable",
 		 "settings":{
 			"name":"Support variables",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1253,7 +1253,7 @@
 		 "scope":"support.class",
 		 "settings":{
 			"name":"Library class",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1321,7 +1321,7 @@
 		 "scope":"variable.other.class",
 		 "settings":{
 			"name":"Library function",
-			"foreground":"#7650ff"
+			"foreground":"#20C20E"
 		 }
 	  },
 	  {
@@ -1430,7 +1430,8 @@
 	 "editorGroup.focusedEmptyBorder": "#6f2a3a",
 	 "editorGroupHeader.tabsBackground": "#000000",
 	 "tab.border": "#6f2a3a",
-	 "tab.activeBorder": "#6f2a3a",
+	 "tab.activeBorderTop": "#6f2a3a",
+	 //"tab.activeBorder": "#6f2a3a",
 	 "tab.inactiveBackground": "#000000",
 	 "tab.activeModifiedBorder": "#6f2a3a",
 	 "tab.inactiveModifiedBorder": "#421922",
@@ -1440,8 +1441,8 @@
 	 "editor.foreground": "#ffffffbb",
 	 "editorLineNumber.foreground": "#ffffff59",
 	 "editorLineNumber.activeForeground": "#bb183e",
-	 "editorCursor.foreground": "#44445a",
-	 "editor.selectionBackground": "#8f45ff55",
+	 "editorCursor.foreground": "#ffffffbb",
+	 "editor.selectionBackground": "#5110b355",
 	 "editor.wordHighlightBackground": "#45459922",
 	 "editor.wordHighlightStrongBackground": "#4545992a",
 	 "editor.lineHighlightBorder": "#ffffff28",
@@ -1469,6 +1470,6 @@
 	 "titleBar.activeBackground": "#000000",
 	 "pickerGroup.border": "#FFFFFF1a",
 	 "debugToolBar.background": "#000000",
-	 "selection.background": "#6f2a3a",
+	 "selection.background": "#6f2a3a"
    },
   }
